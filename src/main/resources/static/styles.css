@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.main-menu {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main-menu > a {
+    text-decoration: none;
+    color: #333333;
+    transition: .3s;
+}
+
+.main-menu > a:first-child:hover {
+    color: #ffdf00;
+}
+
+.main-menu > a:nth-child(2):hover {
+    color: #008f39;
+}
+
+.main-menu > a:last-child:hover {
+    color: #f00;
+}
+
+.main-menu > a:not(:last-child) {
+    margin-right: 30px;
+}
